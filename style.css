@@ -1,35 +1,60 @@
-.main {
-    width: 200px;
-    height: 1000px;
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Amazon Ember", Arial, sans-serif;
 }
-.img {
-
+.main {
+    margin-top: 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
+    padding: 0 10px;
+}
+#cpu {
+    width: 100%;
+}
 
+.pname {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+#stars {
+    height: 16px;
 }
 .rating {
-    color: rgb(66, 66, 254);
+    color: #2162A1;
+    font-size: 15px;
 }
 .buyers {
     color: rgb(87, 87, 87);
 }
 .price {
-    font-size: 20px;
+    font-size: 30px;
+    margin: 8px 0;
 }
 .price sup {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
 }
 .shipping {
-    font-size: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
+    margin-bottom: 8px;
 }
 
 button {
-    background-color: yellow;
+    background-color: #FFD814;
     border: none;
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 8px 12px;
+    font-weight: 500;
 }
