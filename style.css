@@ -2,3 +2,34 @@
     width: 200px;
     height: 1000px;
 }
+.img {
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+.rating {
+    color: rgb(66, 66, 254);
+}
+.buyers {
+    color: rgb(87, 87, 87);
+}
+.price {
+    font-size: 20px;
+}
+.price sup {
+    font-size: 12px;
+}
+.shipping {
+    font-size: 10px;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
