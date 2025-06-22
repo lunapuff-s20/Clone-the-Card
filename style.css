@@ -5,7 +5,7 @@ body {
     font-family: "Amazon Ember", Arial, sans-serif;
 }
 .main {
-    margin-top: 30px;
+    margin-top: 4px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -14,47 +14,57 @@ body {
 }
 
 .content {
-    padding: 0 10px;
+    padding: 0 8px;
 }
+
 #cpu {
     width: 100%;
 }
 
 .pname {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 26px;
     font-weight: 500;
     margin-bottom: 6px;
 }
+
 #stars {
-    height: 16px;
+    height: 18px;
 }
-.rating {
+
+.rating span {
     color: #2162A1;
-    font-size: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
+
 .buyers {
     color: rgb(87, 87, 87);
+    font-weight: 500;
 }
+
 .price {
     font-size: 30px;
     margin: 8px 0;
+    font-weight: 500;
 }
+
 .price sup {
     font-size: 14px;
-    font-weight: 500;
 }
+
 .shipping {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
-    margin-top: 2px;
-    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 button {
     background-color: #FFD814;
     border: none;
     border-radius: 20px;
-    padding: 8px 12px;
+    padding: 10px 15px;
     font-weight: 500;
+    font-size: 15px;
 }
